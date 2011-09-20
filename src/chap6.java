@@ -15,12 +15,12 @@ public class chap6 {
 	}
 	
 	chap6(){
-		//this.chap61();
-		//this.chap621();
-		//this.chap622();
-		//this.chap623();
-		//this.chap624();
-		//this.chap625();
+		this.chap61();
+		this.chap621();
+		this.chap622();
+		this.chap623();
+		this.chap624();
+		this.chap625();
 		this.chap626();	
 		
 	}
@@ -30,7 +30,11 @@ public class chap6 {
 		System.out.println(str);
 		System.out.println(str.hashCode());
 		str += " cdf";
-		System.out.println(str.hashCode());		
+		System.out.println(str.hashCode());
+		str = "aaa";
+		System.out.println(str.hashCode());
+		str = "aaa";
+		System.out.println(str.hashCode());
 		
 	}
 	
