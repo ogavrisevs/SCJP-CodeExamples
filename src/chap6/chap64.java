@@ -1,3 +1,4 @@
+package chap6;
 import java.text.DateFormat;
 import java.text.NumberFormat;
 import java.text.SimpleDateFormat;
@@ -44,6 +45,10 @@ public class chap64 {
 		System.out.println(dt.toString());
 	}
 	
+	/**
+	 * DateFormat, Calendar, Locale
+	 * 
+	 */
 	public void chap642(Locale loc){
 
 

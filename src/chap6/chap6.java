@@ -1,3 +1,4 @@
+package chap6;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.Console;
@@ -54,6 +55,9 @@ public class chap6 {
 		}
 	}
 	
+	/**
+	 * File
+	 */
 	public void chap622(){
 		try{
 			File fDir = new File("newDir");
@@ -82,6 +86,9 @@ public class chap6 {
 		}
 	}
 
+	/**
+	 * FileWriter, FileReader
+	 */
 	public void chap623(){
 		try {
 			FileWriter fw = new FileWriter(new File("ff1"));
@@ -111,6 +118,9 @@ public class chap6 {
 		}
 	}
 	
+	/**
+	 * BufferedWriter, BufferedReader
+	 */
 	public void chap624(){
 		try {
 			FileWriter w = new FileWriter("file");  
@@ -134,6 +144,10 @@ public class chap6 {
 		}
 	}
 
+	
+	/**
+	 * PrintWriter
+	 */
 	public void chap625(){
 		try {
 			FileWriter fw = new FileWriter("filePW");  
@@ -158,6 +172,9 @@ public class chap6 {
 		}
 	}
 	
+	/**
+	 * Console
+	 */
 	public static void chap626(){
 	
 		Console c = System.console();
