@@ -10,8 +10,16 @@ public class UpCast {
 		
 	}
 }
-class ClassP{}
+class ClassP{
+	ClassP(){
+		System.out.println("ClassP constructor");
+	}
+	
+}
 class SubClass extends ClassP{
+	SubClass(){
+		System.out.println("SubClass constructor");
+	}
 	void method(){
 		System.out.println("method call");
 	}
