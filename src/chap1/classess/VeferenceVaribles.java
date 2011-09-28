@@ -22,13 +22,19 @@ public class VeferenceVaribles {
 		System.out.println("Int max "+ Integer.MAX_VALUE + " int min "+ Integer.MIN_VALUE);
 		System.out.println("Short max "+ Short.MAX_VALUE + " Short min "+ Short.MIN_VALUE);		
 		
-		//Inlegal
+		//this is not upcast ! , this is side-cats !!-> Illegal
 		//Short ss = (Short) new Integer(Integer.MAX_VALUE);
 		
-		//Inlegal
+		//Illegal
 		//Integer ii = (Integer) new Short(Short.MAX_VALUE);
 		
+		// real up-cast
+		Number ii =  new Short(Short.MAX_VALUE);
+		System.out.println((Short)ii);
+		
+		
 		Integer iii = Integer.valueOf(s);
+		
 		
 	}
 	
