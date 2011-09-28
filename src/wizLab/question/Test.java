@@ -1,4 +1,4 @@
-package question;
+package wizLab.question;
 
 public class Test {
 
