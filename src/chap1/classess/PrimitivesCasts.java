@@ -7,7 +7,7 @@ public class PrimitivesCasts {
 	}
 	
 	public PrimitivesCasts() {
-		method();
+		//method();
 		casts();
 	}
 	
@@ -20,10 +20,14 @@ public class PrimitivesCasts {
 		short s = -32768;
 		short s2 = 32767;
 	
+		int i = 9999999;
+		int i2 = 9999999;		
 		
+		//up cats
 		byte bb = (byte)s;
 		System.out.println("cast from short = "+ s +" to byte results = "+ bb);
 		
+		// downcats
 		short ss = (short) b;
 		System.out.println("cast from byte = "+ b +" to short results = "+ ss);
 		
