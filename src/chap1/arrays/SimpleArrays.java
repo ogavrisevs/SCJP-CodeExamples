@@ -43,9 +43,18 @@ public class SimpleArrays {
 		
 		{{{System.out.println("any count brakets");}}}
 		
-		//Object obj = {{"A1"}, {"B1"}};		
+		//Object obj = {{"A1"}, {"B1"}};
 		
-		for (System.out.println("any operator here2") ; true; System.out.println("any operator here"));
+		// what a F*** is that ?!! 
+		int [][] a3aa = {{1,2 , }, {3,4}};
+		String [][] aada = {{"1", "2" , }, {"3", "4"}};
+
+		
+		// infinitive loop 
+		//for (System.out.println("any operator here2") ; true; System.out.println("any operator here"));
+		
+
+
 			
 	}
 }
