@@ -1,8 +1,6 @@
 package chap3;
 
 public class PrimitiveLiterals {
-
-	
 	public static void main(String[] args) {
 		new PrimitiveLiterals();
 	}
