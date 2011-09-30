@@ -8,6 +8,9 @@ public class OutOfMemory {
 		new OutOfMemory();
 	}
 	
+	/**
+	 * Don't try this at home !
+	 */
 	OutOfMemory(){
 		
 		//method1();
