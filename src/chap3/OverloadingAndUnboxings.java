@@ -10,17 +10,22 @@ public class OverloadingAndUnboxings {
 		
 		Integer iI = 2;
 		ov.method(iI);
-		
 		Double d = 1.2;
 		ov.method(d);
 		
 		Ovr2 ov2 = new Ovr2();
-		//will try -> float -> double -> Integer -> Object  
+		//int try -> float -> double -> Integer -> Object  
 		ov2.method(i); // compiler will choose widening over boxing 
 		ov2.method(iI); // 		
 		
+		// Integer try Integer - > Object 
 		Ovr3 ov3 = new Ovr3();
 		ov3.method(iI);
+		
+		// up-cast
+		//from  Integer try Integer -> integer -> float  
+		Ovr4 ov4 = new Ovr4();		
+		ov4.method(i);
 		
 	}
 	
@@ -102,5 +107,27 @@ class Ovr3 {
 	void method(Object obj ){ 
 		System.out.println("Object : "+ obj.toString());
 	}
+}
+
+
+class Ovr4 {
+	void method(short i ){
+		System.out.println("short : "+ i);
+	}
+	void method(float i ){
+		System.out.println("float : "+ i);
+	}
+	
+	void method(double i ){
+		System.out.println("double : "+ i);
+	}
+	
+	void method(Float i ){
+		System.out.println("Float : "+ i);
+	}
+	void method(Object i ){
+		System.out.println("Object : "+ i);
+	}
+	
 }
 
