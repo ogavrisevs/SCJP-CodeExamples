@@ -20,7 +20,7 @@ public class Bridge {
 
 	public static void main(String[] args) {
 		/*System.out.println(Suits.NOTRUMP.getBidValue(3));*/
-		
+		System.out.println(Suits.NOTRUMP.getValue(3));
 		System.out.println(Suits.SPADES + " " + Suits.SPADES.points);
 		System.out.println(Suits.values());
 	}

@@ -25,7 +25,6 @@ import java.util.Vector;
 
 public class chap73 {
 
-	
 	public static void main (String [] argv){
 		new chap73();
 	}
@@ -37,8 +36,7 @@ public class chap73 {
 		chap733();
 		chap734();
 		chap735();
-
-		
+	
 	}
 	
 	/**
@@ -251,9 +249,8 @@ class SimpleA {
 	public int hashCode(){
 		return this.str.hashCode();
 	}
-	
-}
 
+}
 
 class SimpleC{
 	private String str ;

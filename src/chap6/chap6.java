@@ -42,12 +42,12 @@ public class chap6 {
 	public void chap621(){
 		try{
 			File f = new File("newFile");
+			System.out.println("exists : "+  f.exists());			
 			System.out.println("isFile : "+  f.isFile());
-			System.out.println("exists : "+  f.exists());
 			System.out.println("isDirectory : "+  f.isDirectory());			
 			f.createNewFile();
+			System.out.println("exists : "+  f.exists());			
 			System.out.println("isFile : "+  f.isFile());
-			System.out.println("exists : "+  f.exists());
 			System.out.println("isDirectory : "+  f.isDirectory());			
 			
 		}catch (Exception e) {

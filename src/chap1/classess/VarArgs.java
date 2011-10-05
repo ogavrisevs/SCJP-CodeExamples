@@ -12,11 +12,13 @@ public class VarArgs {
 		method("a", "b", "c");
 		// inelegal method("a", "b", 1);		
 		method2(1);
-		String [] arg = {"a", "b"};
 		String [] argv = new String[] {"a", "b"};
+
+		// The method method3(String[]) is not applicable for the arguments
+		//method3("a", "b", "c");
 		
-		method3(arg);
-		
+		method(argv);
+		method3(argv);		
 		
 	}
 	

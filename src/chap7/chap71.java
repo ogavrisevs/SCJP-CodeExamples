@@ -7,8 +7,8 @@ public class chap71 {
 	}
 	
 	chap71(){
-		//equalSimpleObjTest();
-		//equalObjTest();
+		equalSimpleObjTest();
+		equalObjTest();
 		equalObjTest2();
 	}
 

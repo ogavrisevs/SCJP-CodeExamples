@@ -13,7 +13,6 @@ public class leftShift {
 		System.out.println("(72 >> 1) "+ (72 >> 1));
 		System.out.println("(72 >> 2) "+ (72 >> 2));
 		System.out.println("(72 >> 3) "+ (72 >> 3));
-		
 	}
 
 }

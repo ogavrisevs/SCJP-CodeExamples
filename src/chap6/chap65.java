@@ -26,10 +26,12 @@ public class chap65 {
 		System.out.format("_ %2$d  %1$d_ \n",  11, 22);
 
 		System.out.format(">%3$+d< \t >%2$d< \t >%1$+d< \n",  11, 22, -13);		
- 
-		System.out.format(">%010d< \n", -13);
+
+		// right justify
+		System.out.format(">%10d< \n", -13);
 		
-		System.out.format(">%-10d< \t >%10d< \t \n", 22, -13);		
+		// left and right justify with zeros 
+		System.out.format(">%-10d< \t >%010d< \t \n", 22, -13);		
 		
 		System.out.format(">%-10s< \t >%10s< \t \n", "aa", "bb");		
 		
@@ -85,7 +87,7 @@ public class chap65 {
 	 * Pattern, Matcher
 	 */
 	public void chap651(){
-		String source = "ab2cd dfa54dfwse w733f we8f weaf0w ";
+		String source = "ab2cd dfa54dfwse w733f 8f wea5af0w ";
 		pureRegEx("ab" , source);
 		pureRegEx("[a-z]" , source);
 		pureRegEx("[a-b]" , source);

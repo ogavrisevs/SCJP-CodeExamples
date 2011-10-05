@@ -17,8 +17,8 @@ public class chap63 {
 
 	public chap63() {
 		//this.chap631();
-		this.chap632();
-		//this.chap633();
+		//this.chap632();
+		this.chap633();
 	}
 	public void chap631() {
 		try {
@@ -146,6 +146,7 @@ class ParentClass{
 	public String surname = "defualtVal!";
 	
 	public ParentClass() {
+		surname += "_!";
 	}
 	
 	public ParentClass(String surname) {
