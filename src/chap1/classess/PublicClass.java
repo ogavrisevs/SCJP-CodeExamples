@@ -129,8 +129,6 @@ class DefualtClass {
 		cp.method(true);
 		
 		
-		
-		
 	}
 	
 	
@@ -167,6 +165,37 @@ class DefualtClass {
 	protected void method(boolean boo){
 		System.out.println(this.getClass().getName() +" protected method ");
 	}
+
+	public void accessByRef(DefualtClass dc){
+		// all methods visible!!! 
+		dc.method();
+		dc.method("");
+		dc.method("", "");
+		dc.method(true);
+	}
 	
 }
+
+
+class testAccess  {
+	byte a =1, b=7; 
+	
+	public static void main(String[] argv){
+		
+		//--- acess same class  
+		DefualtClass cnp = new DefualtClass();
+		new DefualtClass("j");
+		//The constructor DefualtClass(String...) is not visible
+		//new DefualtClass("j", "f");
+		new DefualtClass(true);		
+		
+		cnp.method();
+		cnp.method("");
+		//The method method(String...) from the type DefualtClass is not visible
+		//cnp.method("", "");
+		cnp.method(true);
+	}
+	
+}
+
 

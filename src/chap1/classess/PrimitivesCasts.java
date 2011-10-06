@@ -5,6 +5,8 @@ public class PrimitivesCasts {
 	public static void main(String[] args) {
 		new PrimitivesCasts();
 	}
+
+	private boolean bbbb;
 	
 	public PrimitivesCasts() {
 		//method();
@@ -30,6 +32,26 @@ public class PrimitivesCasts {
 		// downcats
 		short ss = (short) b;
 		System.out.println("cast from byte = "+ b +" to short results = "+ ss);
+		
+		int iii =11;
+		boolean bbb = iii < 22; 
+		System.out.println( "boolean bbb = 11 < 22 = "+ bbb);
+		
+		if ( bbbb = false)
+			System.out.println("if (bbb= false) = true");
+		else 
+			System.out.println("if (bbb= false) = false");
+		
+		double d = 1.1;
+		int ii = (int) d;
+		System.out.println("cast double : "+ d +" to int : "+ ii);
+		
+		float f = (float) d;
+		System.out.println("cast double : "+ d +" to float : "+ f);		
+		
+		char c = 32767;
+		short sss = (short) c; 
+		System.out.println("cast char : "+ c +" to short : "+ sss);
 		
 		
 	}

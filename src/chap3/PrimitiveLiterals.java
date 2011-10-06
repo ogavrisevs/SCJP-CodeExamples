@@ -36,6 +36,7 @@ public class PrimitiveLiterals {
 	
 	void floatingPointLiterals(){
 		double d = 123456789.123456789;
+		//float fff = 123456789.123456789; //Type mismatch: cannot convert from double to float
 		long l = 10L;
 		long ll = 10l;		
 		float f = 10F;
@@ -59,12 +60,21 @@ public class PrimitiveLiterals {
 				System.out.println();
 				
 		}
-				
+	}			
 		
-		
-		
+	void booleanLiterals(){
+		//boolean b = 0; //Type mismatch: cannot convert from int to boolean
+		//boolean b = "true";	//Type mismatch: cannot convert from String to boolean	
+		boolean b = true;			
+		//boolean bb = tRUe; //tRUe cannot be resolved to a variable
+		//boolean bb = (boolean) 1; //Cannot cast from int to boolean
+		boolean bb = Boolean.TRUE;
 		
 		
 	}
+		
+		
+		
+	
 	
 }

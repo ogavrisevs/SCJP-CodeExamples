@@ -53,8 +53,18 @@ public class SimpleArrays {
 		// infinitive loop 
 		//for (System.out.println("any operator here2") ; true; System.out.println("any operator here"));
 		
-
-
-			
+		int arr40 [];
+		//System.out.println( "int arr40 [] = {} :" + arr40.length); //The local variable arr40 may not have been initialized
+		
+		int arr41 [] = {};
+		System.out.println( "int arr41 [] = {} :" + arr41.length);
+		//arr41[0] = 1; //java.lang.ArrayIndexOutOfBoundsException
+		
+		int arr42 [] = new int[0];
+		System.out.println( "int arr42 [] = new int[0] :" + arr42.length);		
+		int arr43 [] = new int[]{1};	
+		System.out.println( "int arr43 [] = new int[]{1} :" + arr43.length);		
+				
+		
 	}
 }
