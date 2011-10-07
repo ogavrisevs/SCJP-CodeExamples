@@ -17,7 +17,8 @@ public class Question1 {
 		Matcher m = p.matcher(args1);
 		boolean b = false;
 		while(b = m.find()) 
-			System.out.print(m.start() + m.group());
+			System.out.print(m.start()+ "_"+ m.group()+ "_");
+		
 	}
 
 }
