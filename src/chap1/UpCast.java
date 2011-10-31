@@ -1,5 +1,6 @@
 package chap1;
 
+// commit from IDEA
 public class UpCast {
 	public static void main(String[] argv){
 		ClassP cp =  new SubClass(); // UpCasst
